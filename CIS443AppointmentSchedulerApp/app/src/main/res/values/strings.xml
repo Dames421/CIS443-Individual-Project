@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CIS443-AppointmentSchedulerApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">My Appointments</string>
+    <string name="second_fragment_label">New Appointment</string>
+
+    <string name="my_appointment_fragment">My Appointments</string>
+
+
+    <string name="create_appointment_fragment">Before setting up your appointment, please fill out this survey so we may better assist you.</string>
+    <string name="lblBiometrics">Please fill out as many fields as you are able:</string>
+    <string name="biometric01">Body Temperature (F):</string>
+    <string name="biometric02">Heart Rate (BPM):</string>
+    <string name="biometric03">Weight:</string>
+    <string name="biometric04">Age:</string>
+    <string name="biometric05">Glucose:</string>
+    <string name="biometric06">Blood Pressure:</string>
+    <string name="biometric07">Placeholder</string>
+
+    <string name="lblSymptoms">Are you experiencing any of these symptoms? Check all that apply:</string>
+    <string name="symptom01">Tightness in chest</string>
+    <string name="symptom02">Trouble breathing</string>
+    <string name="symptom03">Loss of consciousness</string>
+    <string name="symptom04">Chest pain</string>
+    <string name="symptom05">Seizures</string>
+    <string name="symptom06">Stroke</string>
+    <string name="symptom07">Shortness of breath</string>
+    <string name="symptom08">Bloody, black, or tar-colored stool</string>
+    <string name="symptom09">Dizziness</string>
+    <string name="symptom10">Slurred speech</string>
+    <string name="symptom11">Fever</string>
+    <string name="symptom12">Abdominal pain</string>
+    <string name="symptom13">Placeholder</string>
+    <string name="symptom14">Placeholder</string>
+    <string name="symptom15">Placeholder</string>
+    <string name="symptom16">Placeholder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
