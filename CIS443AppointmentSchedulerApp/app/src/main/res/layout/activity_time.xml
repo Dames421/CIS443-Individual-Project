@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +7,85 @@
     tools:context=".TimeActivity">
 
     <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView2"
+        android:layout_marginBottom="20dp"
+        android:text="" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time Activity"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="356dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/radioGroupTime"
+        android:text="@string/lblTimeSelect" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="163dp" >
+
+        <RadioButton
+            android:id="@+id/radioBtnTime01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="9:00 am" />
+
+        <RadioButton
+            android:id="@+id/radioBtnTime02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="10:00 am" />
+
+        <RadioButton
+            android:id="@+id/radioBtnTime03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="10:30 am" />
+
+        <RadioButton
+            android:id="@+id/radioBtnTime04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="1:30 pm" />
+
+        <RadioButton
+            android:id="@+id/radioBtnTime05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="3:00 pm" />
+
+        <RadioButton
+            android:id="@+id/radioBtnTime06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="5:00 pm" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupTime"
+        android:layout_toRightOf="@id/radioGroupTime"
+        android:text="Next" />
+
+    </RelativeLayout>

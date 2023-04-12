@@ -35,7 +35,11 @@
     <string name="symptom14">Placeholder</string>
     <string name="symptom15">Placeholder</string>
     <string name="symptom16">Placeholder</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="lblTimeSelect">Please select a starting time for your appointment and hit "next"</string>
+    <string name="lblApptConfirmation">Your appointment has successfully been created!</string>
+    <string name="lblUrgentCare">Your case has been classified as urgent. Please visit your nearest urgent care facility.</string>
+    <string name="lblER">Your case has been classified as an emergency. Please call 911 or have someone drive you to the ER immediately!</string>
+
+    <string name="hello_blank_fragment">Blank Fragment</string>
 </resources>

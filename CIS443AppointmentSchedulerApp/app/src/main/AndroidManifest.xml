@@ -12,6 +12,15 @@
         android:theme="@style/Theme.CIS443AppointmentSchedulerApp"
         tools:targetApi="31">
         <activity
+            android:name=".ERActivity"
+            android:exported="false" />
+        <activity
+            android:name=".URActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmationActivity"
+            android:exported="false" />
+        <activity
             android:name=".TimeActivity"
             android:exported="false" />
         <activity

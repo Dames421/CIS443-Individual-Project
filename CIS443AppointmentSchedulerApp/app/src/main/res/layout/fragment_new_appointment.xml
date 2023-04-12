@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".NewAppointmentFragment">
+        tools:context="fragments.NewAppointmentFragment">
 
         <TextView
             android:id="@+id/textview_second"
@@ -46,8 +46,7 @@
             android:inputType="number"
             android:layout_below="@+id/lblBiometrics"
             android:layout_toRightOf="@+id/lblBiometric01"
-            android:layout_alignBaseline="@+id/lblBiometric01"
-            android:autofillHints="F" />
+            android:layout_alignBaseline="@+id/lblBiometric01" />
 
         <TextView
             android:id="@+id/lblBiometric02"
@@ -65,8 +64,7 @@
             android:inputType="number"
             android:layout_below="@+id/lblBiometric01"
             android:layout_toRightOf="@+id/lblBiometric02"
-            android:layout_alignBaseline="@+id/lblBiometric02"
-            android:autofillHints="F" />
+            android:layout_alignBaseline="@+id/lblBiometric02" />
 
         <TextView
             android:id="@+id/lblBiometric03"
@@ -84,17 +82,70 @@
             android:inputType="number"
             android:layout_below="@+id/lblBiometric02"
             android:layout_toRightOf="@+id/lblBiometric03"
-            android:layout_alignBaseline="@+id/lblBiometric03"
-            android:autofillHints="F" />
+            android:layout_alignBaseline="@+id/lblBiometric03" />
+
+        <TextView
+            android:id="@+id/lblBiometric04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblBiometric03"
+            android:layout_marginVertical="5dp"
+            android:text="@string/biometric04" />
+
+        <EditText
+            android:id="@+id/biometric04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:layout_below="@+id/lblBiometric03"
+            android:layout_toRightOf="@+id/lblBiometric04"
+            android:layout_alignBaseline="@+id/lblBiometric04" />
+
+        <TextView
+            android:id="@+id/lblBiometric05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblBiometric04"
+            android:layout_marginVertical="5dp"
+            android:text="@string/biometric05" />
+
+        <EditText
+            android:id="@+id/biometric05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:layout_below="@+id/lblBiometric04"
+            android:layout_toRightOf="@+id/lblBiometric05"
+            android:layout_alignBaseline="@+id/lblBiometric05" />
+
+        <TextView
+            android:id="@+id/lblBiometric06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblBiometric05"
+            android:layout_marginVertical="5dp"
+            android:text="@string/biometric06" />
+
+        <EditText
+            android:id="@+id/biometric06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:layout_below="@+id/lblBiometric05"
+            android:layout_toRightOf="@+id/lblBiometric06"
+            android:layout_alignBaseline="@+id/lblBiometric06" />
 
         <!-- Symptoms -->
         <TextView
             android:id="@+id/lblSymptoms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/biometric03"
+            android:layout_below="@+id/biometric06"
             android:textAlignment="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="@string/lblSymptoms" />
 
         <androidx.appcompat.widget.SwitchCompat

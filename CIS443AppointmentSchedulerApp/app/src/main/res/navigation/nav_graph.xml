@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.cis443_appointmentschedulerapp.MyAppointmentFragment"
+        android:name="fragments.MyAppointmentFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_my_appointments">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.cis443_appointmentschedulerapp.NewAppointmentFragment"
+        android:name="fragments.NewAppointmentFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_new_appointment">
 

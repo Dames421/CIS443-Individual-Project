@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-import com.example.cis443_appointmentschedulerapp.MyAppointmentFragment;
-import com.example.cis443_appointmentschedulerapp.NewAppointmentFragment;
+import fragments.MyAppointmentFragment;
+import fragments.NewAppointmentFragment;
 
 public class MyViewPagerAdapter extends FragmentStateAdapter {
     public MyViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
